@@ -4,13 +4,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (btn_here) {
         btn_here.addEventListener('click', function() {
-            window.location.href = '../templates/coffee.html';
+            window.location.href = '../touch_menu/coffee.html';
         });
     }
 
     if (btn_togo) {
         btn_togo.addEventListener('click', function() {
-            window.location.href = '../templates/coffee.html';
+            window.location.href = '../touch_menu/coffee.html';
         });
     }
 });
