@@ -4,21 +4,30 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f7f7f7;
+    text-align: center;
 }
 
 h1 {
-    text-align: center;
     margin-top: 20px;
+    color: #333;
 }
 
-h2 {
-    margin-top: 20px;
+/* 이미지 스타일링 */
+label img {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    margin-right: 10px;
 }
 
-select, input[type="radio"], input[type="checkbox"] {
-    margin-bottom: 10px;
+/* 라디오 버튼과 체크 박스의 위치 조절 */
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
 }
 
+/* 주문 버튼 스타일링 */
 button {
     display: block;
     margin: 20px auto;
@@ -34,14 +43,7 @@ button:hover {
     background-color: #E64A19;
 }
 
-/* 옵션 창 숨김 */
+/* 옵션 창 숨김 스타일 */
 .hidden {
     display: none;
-}
-
-/* 이미지 스타일링*/
-img {
-    margin-right: 10px; /* 이미지 오른쪽 여백 추가 */
-    width: 20px; /* 이미지 너비 조절 */
-    height: 20px; /* 이미지 높이 조절 */
 }
